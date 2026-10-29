@@ -1,0 +1,13 @@
+"""Instructor-provided example. Students should create their own files."""
+TOOL_NAME = 'Shopping discount calculator'
+
+
+def run():
+    item_price = float(input("Enter the total cost of your items: "))
+    if item_price >= 100.00:
+       total = item_price - 15
+       print("you are able you get a discount")
+       print(f"your total cost is: {total}")
+    elif item_price < 100.00:
+        print("you are not able to get a discount")
+        print(f"your total is: {item_price}")
