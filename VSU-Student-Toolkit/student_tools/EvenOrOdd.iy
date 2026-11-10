@@ -1,0 +1,21 @@
+"""
+CSCI 287 - Homework #1
+Question #1: Even or Odd Checker
+Name: Jesse Amissah
+"""
+TOOL_NAME = "EvenOrOdd"
+
+def isEven(val):
+    
+    return val % 2 == 0
+
+
+def run():
+    number = int(input("Enter a number: "))
+
+    if isEven(number):
+        print(f"The number {number} is even.")
+    else:
+        print(f"The number {number} is odd.")
+
+
